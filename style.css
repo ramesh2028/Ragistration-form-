@@ -1,0 +1,97 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdeeee; /* Light pink/peach background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Main Form Container */
+.register-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Heading */
+h1 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Introductory Paragraph */
+p {
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* Styling for each form group (label + input) */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Input Field Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    font-size: 16px;
+}
+
+/* Placeholder text color */
+input::placeholder {
+    color: #aaa;
+}
+
+/* Focus style for input fields */
+input:focus {
+    outline: none;
+    border-color: #c85050; /* Highlight color on click */
+    box-shadow: 0 0 5px rgba(200, 80, 80, 0.2);
+}
+
+/* Register Button Styles */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d9534f; /* Muted red color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #c9302c; /* A slightly darker red on hover */
+}
